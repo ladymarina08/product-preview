@@ -1,0 +1,110 @@
+
+
+.categoria{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5px;
+    color: #6C7289;
+    padding: 0;
+    margin: 0;
+
+}
+
+.nome-do-produto{
+    font-family: 'Fraunces';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 0;
+    margin: 6px;
+
+}
+
+.descrição-do-produto{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: #6C7289;
+    line-height: 23px;
+    margin: 1px;
+}
+
+.mobile{
+    background-color: hsl(30, 38%, 92%);
+    padding: 16px 28px 16px 28px;
+    width: 375px;
+    height: auto;
+
+}
+
+.rectangle{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.foto-do-produto{
+    width: 100%;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 0; 
+    border-bottom-left-radius: 0; 
+}
+
+.valores{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    margin: 6px;
+}
+
+.preço-atual-do-produto{
+    font-family: 'Fraunces';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    color: #3D8168;
+    margin: 8px;
+}
+
+.preço-anterior-do-produto{
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    color: #6C7289;
+    text-decoration: line-through;
+}
+
+.botão{
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 8px;
+    border-style: none;
+    width: 290px;
+    height: 45px;
+    display: block;
+    margin: 8px auto;
+   
+}
+ 
+main{
+    padding: 20px;
+    
+   
+}
+
+a{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+   
+   
+}    
+
